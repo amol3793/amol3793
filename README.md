@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Amol
+- 👋 Hi, I’m Amol, you can check my other active repo too here: https://github.com/amolsinha3793
 - 👀 I’m interested in anything related to python.
 - 🌱 I’m currently learning building distributed system
 - 📫 How to reach me? Just an email away at amol.3793@gmail.com
