@@ -1,89 +1,18 @@
-- 👋 Hi, I’m Amol, you can check my other contribution in private repository here: https://github.com/amolsinha3793
+# 💫 About Me:
+Hi, I'm Amol 👋<br><br>Staff Software Engineer • Distributed Systems • AI Builder<br><br>I'm a software engineer with 11 years of experience building products across startups and global product companies.<br><br>I started my career at Infosys, experienced the fast-paced environment of an early-stage startup where I helped build products from the ground up, and today work as a Staff Engineer building distributed systems for the energy industry.<br><br>Most of my work revolves around designing scalable backend systems, event-driven architectures, cloud-native applications, and developer platforms.<br><br>Recently, I've been exploring how LLMs and AI can simplify everyday workflows, and I'm currently building products in that space.<br><br>What I enjoy building<br>Distributed systems<br>Event-driven microservices<br>Backend platforms<br>AI-powered applications<br>Developer tooling<br>Cloud-native infrastructure<br>Tech I frequently work with<br><br>Languages<br><br>Python • Go<br><br>Backend<br><br>FastAPI • Django • REST APIs • Event-driven Microservices<br><br>Cloud & DevOps<br><br>AWS • Kubernetes • Docker • Kafka • ArgoCD • Helm • CI/CD<br><br>Data<br><br>MySQL • Redis • HBase • InfluxDB<br><br>Architecture<br><br>Distributed Systems • System Design • Multi-tenant SaaS • Design Patterns<br>What I work with<br>🐍 Python (FastAPI, Flask, Django)<br>⚛️ React<br>☁️ AWS<br>☸️ Kubernetes<br>🚀 ArgoCD & GitOps<br>📊 Kafka, Redis, MySQL, HBase, InfluxDB<br>🤖 AI-powered applications using LLMs<br>Things I enjoy building<br>AI-first applications<br>Developer tools<br>Distributed backend systems<br>Data pipelines<br>Cloud-native platforms<br>Automation<br>Personal productivity products<br>Current Focus<br>Building Easeur, an AI-powered personal finance assistant.<br>Exploring practical applications of LLMs in consumer products.<br>Designing scalable backend architectures and AI workflows.<br>Learning more about product design and startup execution.<br>Beyond Coding<br><br>Outside of work, you'll usually find me:<br><br>🏸 Playing badminton<br>📈 Reading about startups and product strategy<br>💰 Learning about investing and personal finance<br>✈️ Traveling whenever I get the opportunity<br><br>I believe great software is simple for users, scalable for engineers, and solves problems people actually care about.
 
 
-💫 About Me:
-Hi, I’m Amol 👋
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/amol3793) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:amol.3793@gmail.com) 
 
-Staff Software Engineer • Distributed Systems • AI Builder
+# 💻 Tech Stack:
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray) ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=InfluxDB&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=amol3793&theme=default&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=amol3793&theme=default&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=amol3793&theme=default&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-I’m a software engineer with 11 years of experience building products across startups and global product companies.
+---
+[![](https://komarev.com/ghpvc/?username=amol3793&icon=0&color=0)](https://visitcount.itsvg.in)
 
-I started my career at Infosys, experienced the fast-paced environment of an early-stage startup where I helped build products from the ground up, and today work as a Staff Engineer building distributed systems for the energy industry.
-
-Most of my work revolves around designing scalable backend systems, event-driven architectures, cloud-native applications, and developer platforms.
-
-Recently, I’ve been exploring how LLMs and AI can simplify everyday workflows, and I’m currently building products in that space.
-
-What I enjoy building
-Distributed systems
-Event-driven microservices
-Backend platforms
-AI-powered applications
-Developer tooling
-Cloud-native infrastructure
-Tech I frequently work with
-
-Languages
-
-Python • Go
-
-Backend
-
-FastAPI • Django • REST APIs • Event-driven Microservices
-
-Cloud & DevOps
-
-AWS • Kubernetes • Docker • Kafka • ArgoCD • Helm • CI/CD
-
-Data
-
-MySQL • Redis • HBase • InfluxDB
-
-Architecture
-
-Distributed Systems • System Design • Multi-tenant SaaS • Design Patterns
-What I work with
-🐍 Python (FastAPI, Flask, Django)
-⚛️ React
-☁️ AWS
-☸️ Kubernetes
-🚀 ArgoCD & GitOps
-📊 Kafka, Redis, MySQL, HBase, InfluxDB
-🤖 AI-powered applications using LLMs
-Things I enjoy building
-AI-first applications
-Developer tools
-Distributed backend systems
-Data pipelines
-Cloud-native platforms
-Automation
-Personal productivity products
-Current Focus
-Building Easeur, an AI-powered personal finance assistant.
-Exploring practical applications of LLMs in consumer products.
-Designing scalable backend architectures and AI workflows.
-Learning more about product design and startup execution.
-Beyond Coding
-
-Outside of work, you’ll usually find me:
-
-🏸 Playing badminton
-📈 Reading about startups and product strategy
-💰 Learning about investing and personal finance
-✈️ Traveling whenever I get the opportunity
-
-I believe great software is simple for users, scalable for engineers, and solves problems people actually care about.
-
-🌐 Socials:
-LinkedIn email
-
-💻 Tech Stack:
-Go Python Bash Script AWS Apache Kafka Django FastAPI DjangoREST Gunicorn Nginx Jenkins InfluxDB MariaDB MySQL Postgres Supabase SQLite Redis
-
-📊 GitHub Stats:
-
-
-
-
-
-
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
