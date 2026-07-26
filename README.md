@@ -1,18 +1,127 @@
-# 💫 About Me:
-Hi, I'm Amol 👋<br><br>Staff Software Engineer • Distributed Systems • AI Builder<br><br>I'm a software engineer with 11 years of experience building products across startups and global product companies.<br><br>I started my career at Infosys, experienced the fast-paced environment of an early-stage startup where I helped build products from the ground up, and today work as a Staff Engineer building distributed systems for the energy industry.<br><br>Most of my work revolves around designing scalable backend systems, event-driven architectures, cloud-native applications, and developer platforms.<br><br>Recently, I've been exploring how LLMs and AI can simplify everyday workflows, and I'm currently building products in that space.<br><br>What I enjoy building<br>Distributed systems<br>Event-driven microservices<br>Backend platforms<br>AI-powered applications<br>Developer tooling<br>Cloud-native infrastructure<br>Tech I frequently work with<br><br>Languages<br><br>Python • Go<br><br>Backend<br><br>FastAPI • Django • REST APIs • Event-driven Microservices<br><br>Cloud & DevOps<br><br>AWS • Kubernetes • Docker • Kafka • ArgoCD • Helm • CI/CD<br><br>Data<br><br>MySQL • Redis • HBase • InfluxDB<br><br>Architecture<br><br>Distributed Systems • System Design • Multi-tenant SaaS • Design Patterns<br>What I work with<br>🐍 Python (FastAPI, Flask, Django)<br>⚛️ React<br>☁️ AWS<br>☸️ Kubernetes<br>🚀 ArgoCD & GitOps<br>📊 Kafka, Redis, MySQL, HBase, InfluxDB<br>🤖 AI-powered applications using LLMs<br>Things I enjoy building<br>AI-first applications<br>Developer tools<br>Distributed backend systems<br>Data pipelines<br>Cloud-native platforms<br>Automation<br>Personal productivity products<br>Current Focus<br>Building Easeur, an AI-powered personal finance assistant.<br>Exploring practical applications of LLMs in consumer products.<br>Designing scalable backend architectures and AI workflows.<br>Learning more about product design and startup execution.<br>Beyond Coding<br><br>Outside of work, you'll usually find me:<br><br>🏸 Playing badminton<br>📈 Reading about startups and product strategy<br>💰 Learning about investing and personal finance<br>✈️ Traveling whenever I get the opportunity<br><br>I believe great software is simple for users, scalable for engineers, and solves problems people actually care about.
+<div align="center">
 
+# Hi, I'm Amol 👋
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/amol3793) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:amol.3793@gmail.com) 
+### Staff Software Engineer • Distributed Systems • Energy Tech • AI Builder
 
-# 💻 Tech Stack:
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray) ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=InfluxDB&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=amol3793&theme=default&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=amol3793&theme=default&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=amol3793&theme=default&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+~10 years building backend systems — from an MNC training floor, to a seed-stage startup's first hires, to leading distributed systems for the energy grid.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/amol3793)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amol.3793@gmail.com)
+![Location](https://img.shields.io/badge/Bengaluru%2C%20India-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white)
+
+</div>
 
 ---
-[![](https://komarev.com/ghpvc/?username=amol3793&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🔭 What I'm doing now
+
+**Lead / SDE-3 at [Autogrid](https://www.auto-grid.com) (acquired by [Uplight](https://uplight.com))** — building distributed systems that help energy utilities balance the grid and integrate renewables.
+
+- Led the build-out of **Virtual Power Plant (VPP)** solutions with a Europe-based team, lifting resource utilization **25%**
+- Shipped **ancillary services** solutions for utilities, cutting energy waste **10%** while improving grid stability
+- Migrated CI/CD from Jenkins/Ansible to **ArgoCD + Helm**, improving deployment efficiency **30%**
+- Mentor engineers joining the team
+
+Earlier at Autogrid: built multi-source data ingestion (API, SFTP, FastAPI) feeding Grafana dashboards, and shipped a platform that lets utilities bid into electricity markets.
+
+**Outside the day job**, I'm the founder building **Easeur** — an AI-powered personal finance assistant. It's where I get to apply LLMs to a problem I actually care about, end to end: product, backend, and everything in between.
+
+---
+
+## 🚀 Featured
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🧠 [Easeur](https://github.com/founder-easeur)** — *founder & builder*
+AI-powered personal finance assistant. Exploring practical, everyday applications of LLMs in a consumer product, from idea to shipped code.
+
+</td>
+<td width="50%" valign="top">
+
+**💼 [amolsinha3793](https://github.com/amolsinha3793)** — *work profile*
+Where my day-to-day commits at Uplight/Autogrid live — mostly private repos, so activity there (not always visible here) reflects the bulk of my hands-on engineering work.
+
+</td>
+</tr>
+</table>
+
+> Pinned repositories below are smaller public projects and experiments — see [Easeur](https://github.com/founder-easeur) for the more substantial, ongoing build.
+
+---
+
+## 🧰 Tech I work with
+
+**Languages**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+
+**Backend & APIs**
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+
+**Cloud, Platform & DevOps**
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache%20Kafka-000000?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+
+**Data**
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)
+![HBase](https://img.shields.io/badge/HBase-000000?style=for-the-badge&logo=apache&logoColor=white)
+
+**Also in the toolbox:** Microservices, Distributed Systems, System Design (HLD/LLD), Multi-tenant SaaS, Jython, Ignition Server, Ansible, Helm, Generative AI & Prompt Engineering
+
+---
+
+## 🎓 Certifications & Achievements
+
+- Generative AI certifications — **Google** & **Microsoft**
+- Python — scored **95%+** (Scaler, 2020 · Cutshort, 2024)
+- **Spot Award**, Autogrid — creative problem-solving on a production project
+- **Insta Award**, Infosys — fast ramp-up and strong problem-solving
+- **Microsoft Certified Professional** — ASP.NET MVC web applications (2016)
+- B.Tech, Computer Science Engineering — IEM, Kolkata (CGPA 8.64/10)
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![Amol's GitHub stats](https://github-readme-stats.vercel.app/api?username=amol3793&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=amol3793&layout=compact&theme=tokyonight&hide_border=true)
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=amol3793&theme=tokyonight&hide_border=true)
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=amol3793&theme=tokyonight&no-frame=true&column=7&margin-w=8)
+
+</div>
+
+<div align="center">
+
+![Snake animation](https://raw.githubusercontent.com/amol3793/amol3793/output/github-contribution-grid-snake.svg)
+
+</div>
+
+---
+
+## 🌱 Beyond the terminal
+
+🏸 Badminton · 📈 Reading about startups & product strategy · 💰 Personal finance & investing · ✈️ Traveling when I get the chance
+
+I believe great software is simple for users, scalable for engineers, and solves problems people actually care about.
+
+<div align="center">
+
+[![Profile views](https://komarev.com/ghpvc/?username=amol3793&color=0e75b6&style=flat)](https://github.com/amol3793)
+
+</div>
