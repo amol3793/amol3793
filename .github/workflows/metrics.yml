@@ -22,5 +22,8 @@ jobs:
           base_indepth: yes
           # Replaces the broken top-langs card
           plugin_languages: yes
-          # Replaces the broken trophies widget
-          plugin_achievements: yes
+          # Trophies replacement - disabled for now: upstream bug, the
+          # achievements query still references the fully-removed GitHub
+          # Projects (classic) API and errors out entirely.
+          # https://github.com/lowlighter/metrics/issues/1706
+          plugin_achievements: no
