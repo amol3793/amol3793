@@ -95,6 +95,8 @@ Where my day-to-day commits at Uplight/Autogrid live — mostly private repos, s
 
 ## 📊 GitHub Stats
 
+### Personal (amol3793)
+
 <div align="center">
 
 ![Metrics](/github-metrics.svg)
@@ -102,7 +104,11 @@ Where my day-to-day commits at Uplight/Autogrid live — mostly private repos, s
 ![GitHub Streak](https://streak-stats.demolab.com/?user=amol3793&theme=tokyonight&hide_border=true)
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=amol3793&theme=tokyo-night&hide_border=true)
 
-**Work stats ([amolsinha3793](https://github.com/amolsinha3793) — day-to-day Uplight/Autogrid commits)**
+</div>
+
+### Work ([amolsinha3793](https://github.com/amolsinha3793) — day-to-day Uplight/Autogrid commits)
+
+<div align="center">
 
 ![Work Metrics](/github-metrics-work.svg)
 
