@@ -15,9 +15,6 @@ jobs:
       contents: write
     steps:
       - name: Personal stats (amol3793)
-        # Pinned instead of @latest - the work step below runs with a
-        # token that can read private org repos, so we don't want an
-        # unreviewed upstream change silently gaining access to it.
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -30,26 +27,4 @@ jobs:
           # achievements query still references the fully-removed GitHub
           # Projects (classic) API and errors out entirely.
           # https://github.com/lowlighter/metrics/issues/1706
-          plugin_achievements: no
-
-      - name: Work stats (amolsinha3793)
-        # Pinned instead of @latest - this step runs with a token that can
-        # read private org repos, so we don't want an unreviewed upstream
-        # change silently gaining access to it.
-        uses: lowlighter/metrics@v3.34
-        with:
-          # Read-only token from the amolsinha3793 account. committer_token
-          # defaults to this repo's own GITHUB_TOKEN regardless (see core
-          # plugin docs), so this token is only ever used to fetch data -
-          # it has no write access to this repo either way.
-          token: ${{ secrets.WORK_METRICS_TOKEN }}
-          user: amolsinha3793
-          filename: github-metrics-work.svg
-          base_indepth: yes
-          # Default is "owner" only, which excludes org-owned repos -
-          # amolsinha3793's real Uplight/Autogrid activity lives on repos
-          # it doesn't personally own, so that default was silently
-          # zeroing out almost everything.
-          repositories_affiliations: owner, collaborator, organization_member
-          plugin_languages: yes
           plugin_achievements: no

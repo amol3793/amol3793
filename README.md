@@ -106,13 +106,10 @@ Where my day-to-day commits at Uplight/Autogrid live — mostly private repos, s
 
 </div>
 
-### Work ([amolsinha3793](https://github.com/amolsinha3793) — day-to-day Uplight/Autogrid commits)
+### Work
 
-<div align="center">
-
-![Work Metrics](/github-metrics-work.svg)
-
-</div>
+Day-to-day Uplight/Autogrid commits and stats live on my work profile:
+**[github.com/amolsinha3793](https://github.com/amolsinha3793)**
 
 <div align="center">
 
