@@ -15,7 +15,10 @@ jobs:
       contents: write
     steps:
       - name: Personal stats (amol3793)
-        uses: lowlighter/metrics@latest
+        # Pinned instead of @latest - the work step below runs with a
+        # token that can read private org repos, so we don't want an
+        # unreviewed upstream change silently gaining access to it.
+        uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: amol3793
@@ -30,7 +33,10 @@ jobs:
           plugin_achievements: no
 
       - name: Work stats (amolsinha3793)
-        uses: lowlighter/metrics@latest
+        # Pinned instead of @latest - this step runs with a token that can
+        # read private org repos, so we don't want an unreviewed upstream
+        # change silently gaining access to it.
+        uses: lowlighter/metrics@v3.34
         with:
           # Read-only token from the amolsinha3793 account. committer_token
           # defaults to this repo's own GITHUB_TOKEN regardless (see core
