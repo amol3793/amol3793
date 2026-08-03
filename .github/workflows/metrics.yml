@@ -40,5 +40,10 @@ jobs:
           user: amolsinha3793
           filename: github-metrics-work.svg
           base_indepth: yes
+          # Default is "owner" only, which excludes org-owned repos -
+          # amolsinha3793's real Uplight/Autogrid activity lives on repos
+          # it doesn't personally own, so that default was silently
+          # zeroing out almost everything.
+          repositories_affiliations: owner, collaborator, organization_member
           plugin_languages: yes
           plugin_achievements: no
