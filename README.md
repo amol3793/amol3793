@@ -108,16 +108,15 @@ Where my day-to-day commits at Uplight/Autogrid live — mostly private repos, s
 
 > Computed from public repositories only — day-to-day Go and distributed systems work at Uplight/Autogrid lives in private repos and isn't reflected above.
 
-### Work
+<div align="center">
+![Snake animation](https://raw.githubusercontent.com/amol3793/amol3793/output/github-contribution-grid-snake.svg)
+</div>
+
+### Work account
 
 Day-to-day Uplight/Autogrid commits and stats live on my work profile:
-**[github.com/amolsinha3793](https://github.com/amolsinha3793)**
+**[github.com/amolsinha3793](https://github.com/amolsinha3793#-github-stats)**
 
-<div align="center">
-
-![Snake animation](https://raw.githubusercontent.com/amol3793/amol3793/output/github-contribution-grid-snake.svg)
-
-</div>
 
 ---
 
