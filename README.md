@@ -95,13 +95,18 @@ Where my day-to-day commits at Uplight/Autogrid live — mostly private repos, s
 
 ## 📊 GitHub Stats
 
-### Personal (amol3793)
+### Personal Account (below) • Work Account: [View GitHub Stats](https://github.com/amolsinha3793#-github-stats)
 
-<div align="center">
-
+<div align="left">
+  
 ![Metrics](/github-metrics.svg)
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=amol3793&theme=tokyonight&hide_border=true&mode=weekly&hide_total_contributions=true&card_width=340&disable_animations=true)
+
+</div>
+
+<div align="center">
+
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=amol3793&theme=tokyo-night&hide_border=true)
 
 </div>
@@ -109,15 +114,10 @@ Where my day-to-day commits at Uplight/Autogrid live — mostly private repos, s
 > Computed from public repositories only — day-to-day Go and distributed systems work at Uplight/Autogrid lives in private repos and isn't reflected above.
 
 <div align="center">
+  
 ![Snake animation](https://raw.githubusercontent.com/amol3793/amol3793/output/github-contribution-grid-snake.svg)
+
 </div>
-
-### Work account
-
-Day-to-day Uplight/Autogrid commits and stats live on my work profile:
-**[github.com/amolsinha3793](https://github.com/amolsinha3793#-github-stats)**
-
-
 ---
 
 ## 🌱 Beyond the terminal
