@@ -57,6 +57,11 @@ jobs:
           # the card shrinks to fit. Note that h1/h2/h3 headings also carry the
           # .field class, so loops that must only touch value rows say div.field.
           extras_js: |
+            // The isocalendar artwork is the only <svg> in the card carrying an
+            // inline style (its margin-top). Matching on that rather than on the
+            // viewBox avoids a comma inside the attribute value, which some CSS
+            // parsers mis-split into a selector list.
+            const ART = 'svg[style*="margin-top"]'
             const DROP = [
               /^Joined GitHub /,
               /^Followed by /,
@@ -103,5 +108,20 @@ jobs:
               // keep sections holding artwork - the isocalendar svg is not inside a .field
               if ([...section.querySelectorAll("svg")].some(svg => !svg.closest(".field")))
                 continue
+              // The isocalendar renders a permanently empty section as a left-hand
+              // spacer, which is what pushes its stats into the right column clear
+              // of the isometric plate. Collapsing it drops them under the artwork.
+              const outer = section.parentElement ? section.parentElement.closest("section") : null
+              if (outer && outer.querySelector(ART))
+                continue
               section.remove()
             }
+
+            // The isocalendar artwork carries a hardcoded margin-top:-130px, sized
+            // for the six stat rows the plugin normally draws beside it. We drop
+            // four of those, so the art overshoots by ~80px and paints over the
+            // card above it. Re-anchor it to what the row actually measures now.
+            const art = document.querySelector(`.items-wrapper ${ART}`)
+            const row = art ? art.previousElementSibling : null
+            if (row && row.classList.contains("row"))
+              art.style.marginTop = `-${Math.round(row.getBoundingClientRect().height)}px`
