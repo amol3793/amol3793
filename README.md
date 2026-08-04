@@ -106,6 +106,8 @@ Where my day-to-day commits at Uplight/Autogrid live — mostly private repos, s
 
 </div>
 
+> Computed from public repositories only — day-to-day Go and distributed systems work at Uplight/Autogrid lives in private repos and isn't reflected above.
+
 ### Work
 
 Day-to-day Uplight/Autogrid commits and stats live on my work profile:
