@@ -101,7 +101,7 @@ Where my day-to-day commits at Uplight/Autogrid live — mostly private repos, s
 
 ![Metrics](/github-metrics.svg)
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=amol3793&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com/?user=amol3793&theme=tokyonight&hide_border=true&mode=weekly&hide_total_contributions=true&card_width=340)
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=amol3793&theme=tokyo-night&hide_border=true)
 
 </div>
