@@ -38,9 +38,12 @@ jobs:
           plugin_languages_threshold: 2%
           plugin_languages_other: yes
 
-          # Last-6-months contributions card (180 days, isometric)
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          # No contributions calendar. plugin_isocalendar can only plot days it
+          # has dates for, and GitHub returns private contributions as a bare
+          # restrictedContributionsCount with no dates. Of the commits counted
+          # above, only about half are public (62 across 8 days in the last
+          # year), so the calendar rendered ~172 of 180 days as empty and
+          # visually contradicted the commit count sitting right above it.
 
           # Trophies replacement - disabled for now: upstream bug, the
           # achievements query still references the fully-removed GitHub
@@ -48,20 +51,14 @@ jobs:
           # https://github.com/lowlighter/metrics/issues/1706
           plugin_achievements: no
 
-          # Strip every field except the commit count, repos contributed to,
-          # languages and the isocalendar art, then label the commit count with
-          # the window it actually covers.
+          # Strip every field except the commit count, repos contributed to and
+          # languages, then label the commit count with the window it covers.
           #
           # This runs inside puppeteer before the SVG is measured and
           # serialized, so removed nodes are gone from the committed file AND
           # the card shrinks to fit. Note that h1/h2/h3 headings also carry the
           # .field class, so loops that must only touch value rows say div.field.
           extras_js: |
-            // The isocalendar artwork is the only <svg> in the card carrying an
-            // inline style (its margin-top). Matching on that rather than on the
-            // viewBox avoids a comma inside the attribute value, which some CSS
-            // parsers mis-split into a selector list.
-            const ART = 'svg[style*="margin-top"]'
             const DROP = [
               /^Joined GitHub /,
               /^Followed by /,
@@ -69,12 +66,6 @@ jobs:
               /^\d[\d,]* Pull requests? opened$/,
               /^\d[\d,]* Issues? opened$/,
               /^\d[\d,]* issue comments?$/,
-              // isocalendar side-stats: streaks duplicate the streak card that
-              // sits below the metrics image, and the daily average is under 1
-              /^Commits streaks$/,
-              /^Current streak /,
-              /^Best streak /,
-              /^Average per day at /,
             ]
             for (const el of [...document.querySelectorAll(".items-wrapper .field")]) {
               const text = el.textContent.replace(/\s+/g, " ").trim()
@@ -105,23 +96,9 @@ jobs:
                 continue
               if (section.querySelector(".field"))
                 continue
-              // keep sections holding artwork - the isocalendar svg is not inside a .field
+              // never collapse a section holding artwork, such as the languages
+              // bar, which is an <svg> sitting outside any .field
               if ([...section.querySelectorAll("svg")].some(svg => !svg.closest(".field")))
-                continue
-              // The isocalendar renders a permanently empty section as a left-hand
-              // spacer, which is what pushes its stats into the right column clear
-              // of the isometric plate. Collapsing it drops them under the artwork.
-              const outer = section.parentElement ? section.parentElement.closest("section") : null
-              if (outer && outer.querySelector(ART))
                 continue
               section.remove()
             }
-
-            // The isocalendar artwork carries a hardcoded margin-top:-130px, sized
-            // for the six stat rows the plugin normally draws beside it. We drop
-            // four of those, so the art overshoots by ~80px and paints over the
-            // card above it. Re-anchor it to what the row actually measures now.
-            const art = document.querySelector(`.items-wrapper ${ART}`)
-            const row = art ? art.previousElementSibling : null
-            if (row && row.classList.contains("row"))
-              art.style.marginTop = `-${Math.round(row.getBoundingClientRect().height)}px`
